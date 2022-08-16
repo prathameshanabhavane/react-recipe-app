@@ -79,10 +79,16 @@ const Button = styled.button`
     border: 2px solid black;
     margin-right: 2rem;
     font-weight: 600;
+    cursor: pointer;
 `;
 
 const Info = styled.div`
+    margin-left: 2rem;
 
+    h3 {
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
 `;
 
 export default Recipe
